@@ -1,3 +1,11 @@
 spring:
   application:
     name: newunion
+  profiles: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/QinZhiWenXuan/newunion
+      label: master
+   
