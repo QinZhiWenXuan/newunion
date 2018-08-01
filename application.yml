@@ -8,4 +8,5 @@ spring:
         git:
           uri: https://github.com/QinZhiWenXuan/newunion
       label: master
-   
+management:
+  context-path: /admin   
